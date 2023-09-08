@@ -1,0 +1,29 @@
+.Dashboard {
+   display: flex;
+}
+.LeftSide {
+   width: 14%;
+   height: 95vh;
+   background-color: aqua;
+}
+.RightSide {
+   width: 86%;
+   height: 95vh;
+   background-color: yellow;
+}
+
+.LeftSide-menu {
+   border: 1px solid black;
+   display: flex;
+   flex-direction: column;
+   /* align-items: flex-start; */
+   /* justify-content: center; */
+   gap: 20px;
+}
+
+.LeftSide-menu > li {
+   border: 1px solid black;
+   cursor: pointer;
+   padding: 15px;
+   margin-left: 0px;
+}
